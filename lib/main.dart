@@ -23,10 +23,25 @@ class MyHomePage extends StatelessWidget {
         centerTitle: true,
         title: Text('Wasted Money'),
       ),
-      body: Center(
-        child: Text(
-          'Hello World!',
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: double.infinity,
+            child: Card(
+              color: Colors.red,
+              elevation: 5,
+              child: Text(
+                'Hello',
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+          Card(
+            child: Text('Listings'),
+          ),
+        ],
       ),
     );
   }
