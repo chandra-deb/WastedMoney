@@ -17,14 +17,14 @@ class ChartBar extends StatelessWidget {
         ),
         Container(
           height: 60,
-          width: 5,
+          width: 10,
           child: Stack(
             children: [
               Container(
                 decoration: BoxDecoration(
                   border: Border.all(width: 1, color: Colors.grey),
                   color: Color.fromRGBO(220, 220, 220, 1),
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(5),
                 ),
               ),
               FractionallySizedBox(
@@ -33,7 +33,7 @@ class ChartBar extends StatelessWidget {
                   decoration: BoxDecoration(
                     border: Border.all(width: 1, color: Colors.grey),
                     color: Theme.of(context).primaryColor,
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(5),
                   ),
                 ),
               )

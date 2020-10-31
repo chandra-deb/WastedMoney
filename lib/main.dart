@@ -36,24 +36,78 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> transactions = [
-    // Transaction(
-    //   id: DateTime.now(),
-    //   title: 'Try 1',
-    //   amount: 99.99,
-    //   date: DateTime.now(),
-    // ),
-    // Transaction(
-    //   id: DateTime.now(),
-    //   title: 'Try 1',
-    //   amount: 99.99,
-    //   date: DateTime.now(),
-    // ),
-    // Transaction(
-    //   id: DateTime.now(),
-    //   title: 'Try 1',
-    //   amount: 99.99,
-    //   date: DateTime.now(),
-    // ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Books',
+      amount: 400.99,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Clothes',
+      amount: 23,
+      date: DateTime.now().subtract(Duration(days: 1)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Meal',
+      amount: 45,
+      date: DateTime.now().subtract(Duration(days: 2)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Routing',
+      amount: 33,
+      date: DateTime.now().subtract(Duration(days: 3)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Chocolate',
+      amount: 88,
+      date: DateTime.now().subtract(Duration(days: 4)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Gone',
+      amount: 107.99,
+      date: DateTime.now().subtract(Duration(days: 5)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Books',
+      amount: 99.99,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Clothes',
+      amount: 23,
+      date: DateTime.now().subtract(Duration(days: 1)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Meal',
+      amount: 45,
+      date: DateTime.now().subtract(Duration(days: 2)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Routing',
+      amount: 33,
+      date: DateTime.now().subtract(Duration(days: 3)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Chocolate',
+      amount: 88,
+      date: DateTime.now().subtract(Duration(days: 4)),
+    ),
+    Transaction(
+      id: DateTime.now(),
+      title: 'Gone',
+      amount: 107.99,
+      date: DateTime.now().subtract(Duration(days: 5)),
+    ),
   ];
 
   List<Transaction> get recentTransctions {

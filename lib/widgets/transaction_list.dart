@@ -16,7 +16,7 @@ class TransactionList extends StatelessWidget {
               children: [
                 Text('No Transactions'),
                 SizedBox(
-                  height: 20,
+                  height: 60,
                 ),
                 Container(
                   height: 200,
